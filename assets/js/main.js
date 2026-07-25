@@ -152,10 +152,13 @@ function hashStr(s){
 }
 
 function renderProductCard(p){
+  const mediaContent = p.img
+    ? `<img src="${p.img}" alt="${p.name}" style="width:100%;height:100%;object-fit:cover;display:block;">`
+    : `<span class="dp-icon"><span class="material-symbols-outlined">${p.icon}</span></span>`;
   return `
   <a href="product.html?id=${p.id}" class="prod-card fold">
-    <div class="prod-media doc-photo">
-      <span class="dp-icon"><span class="material-symbols-outlined">${p.icon}</span></span>
+    <div class="prod-media doc-photo" style="${p.img ? 'padding:0;overflow:hidden;' : ''}">
+      ${mediaContent}
       <div class="prod-tags">
         ${p.tags.slice(0,2).map((t,i)=>`<span class="tag${i===0?' teal':''}">${t}</span>`).join("")}
       </div>
