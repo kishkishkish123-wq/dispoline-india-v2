@@ -344,6 +344,7 @@ const DISPOLINE_PRODUCTS = [
   },
   {
     id: "surgeon-cap",
+    img: "assets/img/surgeon-bouffant-cap.jpg",
     name: "Surgeon Bouffant Cap",
     category: "masks",
     catLabel: "Masks & Caps",
@@ -401,6 +402,7 @@ const DISPOLINE_PRODUCTS = [
   },
   {
     id: "fenestrated-drape",
+    img: "assets/img/fenestrated-drape.jpg",
     name: "Fenestrated General Drape",
     category: "drapes",
     catLabel: "Patient Drapes",
