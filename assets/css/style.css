@@ -269,13 +269,18 @@ h1,h2,h3,h4{font-family:var(--font-head);font-weight:800;color:var(--charcoal);m
   position:absolute;background:var(--white);padding:16px 18px;width:200px;
   box-shadow:var(--shadow-pop);
 }
+.hero-fb-left{top:24px;left:-24px;}
+.hero-fb-right{bottom:24px;right:-24px;}
 .floating-badge .fb-ico{color:var(--teal-dark);font-size:22px;margin-bottom:8px;display:block;}
 .floating-badge b{display:block;font-family:var(--font-head);font-size:14.5px;font-weight:800;margin-bottom:2px;}
-.floating-badge span{font-size:12px;color:var(--ink-60);}
+.floating-badge span:not(.fb-ico):not(.material-symbols-outlined){font-size:12px;color:var(--ink-60);}
 
 @media (max-width:900px){
   .hero-grid{grid-template-columns:1fr;}
   .hero h1{font-size:36px;}
+  .photo-tile{aspect-ratio:16/9;}
+  .hero-fb-left{top:12px;left:12px;}
+  .hero-fb-right{bottom:12px;right:12px;}
 }
 
 /* ---------- Trust strip ---------- */
