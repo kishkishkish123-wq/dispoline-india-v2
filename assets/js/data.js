@@ -154,6 +154,7 @@ const DISPOLINE_PRODUCTS = [
   },
   {
     id: "gynae-kit",
+    img: "assets/img/gynae-kit.jpg",
     name: "Gynaecology Kit",
     category: "kits",
     catLabel: "Procedure Kits",
@@ -174,6 +175,7 @@ const DISPOLINE_PRODUCTS = [
   },
   {
     id: "delivery-kit",
+    img: "assets/img/delivery-kit.jpg",
     name: "Obstetric Delivery Kit",
     category: "kits",
     catLabel: "Procedure Kits",
