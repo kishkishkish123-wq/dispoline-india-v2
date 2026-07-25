@@ -27,7 +27,7 @@ const DISPOLINE_PRODUCTS = [
   },
   {
     id: "urology-pack",
-    name: "Urology Procedure Pack",
+    name: "Urology Surgical Kit & Drape",
     category: "kits",
     catLabel: "Procedure Kits",
     tags: ["Urology", "Custom Pack"],
@@ -171,6 +171,49 @@ const DISPOLINE_PRODUCTS = [
     ]
   },
   {
+    id: "major-surgery-pack",
+    img: "assets/img/major-surgery-pack.jpg",
+    name: "Major Surgery Pack",
+    category: "kits",
+    catLabel: "Procedure Kits",
+    tags: ["General Surgery", "Custom Pack", "EO Sterile"],
+    price: 1650,
+    packs: ["1 Kit", "5 Kits", "10 Kits"],
+    icon: "medical_services",
+    short: "Comprehensive pre-sterile major surgery pack with full-field drapes, gowns and instrument covers for extended open procedures.",
+    desc: "A comprehensive procedure pack for major open surgery, combining full-field patient drapes, reinforced surgeon gowns, instrument tray covers and sterile accessories — all assembled in a controlled environment and sealed with full batch traceability. Configurable to your hospital's protocol for laparotomy, bowel resection and other extended general surgery procedures.",
+    specs: [
+      ["Fabric", "SMS/SMMS non-woven, reinforced critical zones"],
+      ["Sterilization", "Ethylene Oxide (EO), validated to ISO 11135"],
+      ["Packaging", "Peel-pouch, validated to EN ISO 11607-2"],
+      ["Shelf life", "36 months from date of manufacture"],
+      ["Customisation", "Pack contents configurable per hospital protocol"],
+      ["Pack sizes", "1 / 5 / 10 kits per carton"]
+    ]
+  },
+  {
+    id: "laparoscopy-kit",
+    img: "assets/img/laparoscopy-surgical-kit.jpg",
+    name: "Laparoscopy Surgical Kit",
+    category: "kits",
+    catLabel: "Procedure Kits",
+    tags: ["Laparoscopy", "Minimal Access", "EO Sterile"],
+    price: 1380,
+    packs: ["1 Kit", "5 Kits", "10 Kits"],
+    icon: "medical_services",
+    short: "Pre-sterile procedure kit for laparoscopic and minimal-access surgery with port-site drape and fluid-managing accessories.",
+    desc: "Engineered for laparoscopic and minimal-access surgical procedures, this kit includes a port-site fenestrated drape, reinforced gown, instrument covers and sterile field accessories — assembled in a controlled environment for immediate theatre-ready use across general, bariatric, gynaecological and urological laparoscopy.",
+    specs: [
+      ["Fabric", "SMS non-woven, fluid-repellent"],
+      ["Application", "Laparoscopic / minimal-access surgery"],
+      ["Sterilization", "Ethylene Oxide (EO), validated to ISO 11135"],
+      ["Packaging", "Peel-pouch, validated to EN ISO 11607-2"],
+      ["Shelf life", "36 months from date of manufacture"],
+      ["Customisation", "Pack contents configurable per surgical team protocol"],
+      ["Pack sizes", "1 / 5 / 10 kits per carton"]
+    ]
+  },
+  {
     id: "cataract-pack",
     img: "assets/img/cataract-surgery-pack.jpg",
     name: "Cataract Surgery Pack",
@@ -256,6 +299,7 @@ const DISPOLINE_PRODUCTS = [
   },
   {
     id: "3ply-mask",
+    img: "assets/img/surgical-face-mask.jpg",
     name: "3-Ply Surgical Face Mask",
     category: "masks",
     catLabel: "Masks & Caps",
@@ -293,7 +337,8 @@ const DISPOLINE_PRODUCTS = [
   },
   {
     id: "shoe-cover",
-    name: "Anti-Skid Shoe Cover",
+    img: "assets/img/shoe-cover-nonwoven.jpg",
+    name: "Shoe Cover Non-Woven",
     category: "masks",
     catLabel: "Masks & Caps",
     tags: ["Anti-Skid", "Fluid Resistant"],
@@ -307,6 +352,26 @@ const DISPOLINE_PRODUCTS = [
       ["Fit", "Elasticated ankle opening"],
       ["Sole", "Anti-skid textured coating"],
       ["Pack sizes", "Box of 100 / carton of 1000"]
+    ]
+  },
+  {
+    id: "boot-cover",
+    img: "assets/img/boot-cover-knee-length.jpg",
+    name: "Surgical Boot Cover Knee-Length",
+    category: "masks",
+    catLabel: "Masks & Caps",
+    tags: ["Anti-Skid", "Knee-Length", "Fluid Resistant"],
+    price: 38,
+    packs: ["Box of 50", "Carton of 500"],
+    icon: "footprint",
+    short: "Knee-length fluid-resistant surgical boot cover for OT and cleanroom environments requiring full lower-leg protection.",
+    desc: "A knee-length boot cover providing full lower-leg and foot protection from fluid splash, dust and contamination in OT corridors and cleanroom environments. Fitted with elasticated top and ankle for secure, comfortable wear.",
+    specs: [
+      ["Fabric", "Non-woven polypropylene, fluid-resistant coating"],
+      ["Height", "Knee-length (approx. 40 cm)"],
+      ["Fit", "Elasticated top and ankle openings"],
+      ["Sole", "Anti-skid textured base"],
+      ["Pack sizes", "Box of 50 / carton of 500"]
     ]
   },
   {
