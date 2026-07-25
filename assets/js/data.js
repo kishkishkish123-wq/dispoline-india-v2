@@ -66,6 +66,7 @@ const DISPOLINE_PRODUCTS = [
   },
   {
     id: "ortho-kit",
+    img: "assets/img/ortho-surgery-pack.jpg",
     name: "Orthopaedic Procedure Kit",
     category: "kits",
     catLabel: "Procedure Kits",
@@ -125,7 +126,29 @@ const DISPOLINE_PRODUCTS = [
     ]
   },
   {
+    id: "cataract-pack",
+    img: "assets/img/cataract-surgery-pack.jpg",
+    name: "Cataract Surgery Pack",
+    category: "kits",
+    catLabel: "Procedure Kits",
+    tags: ["Ophthalmology", "Custom Pack", "EO Sterile"],
+    price: 980,
+    packs: ["1 Kit", "5 Kits", "10 Kits"],
+    icon: "visibility",
+    short: "Custom pre-sterile procedure kit for cataract and anterior segment surgery, with fenestrated ophthalmic drape and aperture cover.",
+    desc: "A surgery-specific pre-sterile kit for cataract and anterior segment procedures. Includes a fenestrated ophthalmic drape with self-adhesive aperture, instrument covers and sterile field components — all assembled and sealed under validated controlled-environment conditions for immediate theatre-ready use.",
+    specs: [
+      ["Fabric", "SMS non-woven, fluid-repellent"],
+      ["Sterilization", "Ethylene Oxide (EO), validated to ISO 11135"],
+      ["Packaging", "Peel-pouch, validated to EN ISO 11607-2"],
+      ["Shelf life", "36 months from date of manufacture"],
+      ["Customisation", "Pack contents configurable per hospital protocol"],
+      ["Pack sizes", "1 / 5 / 10 kits per carton"]
+    ]
+  },
+  {
     id: "sms-gown",
+    img: "assets/img/reinforced-surgical-gown.jpg",
     name: "SMS Surgeon Gown",
     category: "gowns",
     catLabel: "Surgeon Gowns",
@@ -166,6 +189,7 @@ const DISPOLINE_PRODUCTS = [
   },
   {
     id: "breathable-gown",
+    img: "assets/img/isolation-gown.jpg",
     name: "Breathable Comfort Gown",
     category: "gowns",
     catLabel: "Surgeon Gowns",
