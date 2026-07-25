@@ -6,6 +6,7 @@
 const DISPOLINE_PRODUCTS = [
   {
     id: "turp-kit",
+    img: "assets/img/turp-procedure-kit.jpg",
     name: "TURP Procedure Kit",
     category: "kits",
     catLabel: "Procedure Kits",
@@ -46,7 +47,8 @@ const DISPOLINE_PRODUCTS = [
   },
   {
     id: "cabg-kit",
-    name: "CABG Kit",
+    img: "assets/img/cabg-drape-kit.jpg",
+    name: "CABG Drape Kit",
     category: "kits",
     catLabel: "Procedure Kits",
     tags: ["Cardiology", "Custom Pack", "EO Sterile"],
@@ -83,6 +85,49 @@ const DISPOLINE_PRODUCTS = [
       ["Shelf life", "36 months from date of manufacture"],
       ["Customisation", "Pack contents configurable per procedure type"],
       ["Pack sizes", "1 / 5 / 10 kits per carton"]
+    ]
+  },
+  {
+    id: "angiogram-kit",
+    img: "assets/img/angiogram-angioplasty-kit.jpg",
+    name: "Angiogram / Angioplasty Kit",
+    category: "kits",
+    catLabel: "Procedure Kits",
+    tags: ["Cardiology", "Cath Lab", "EO Sterile"],
+    price: 1980,
+    packs: ["1 Kit", "5 Kits"],
+    icon: "monitor_heart",
+    short: "Pre-sterile cath-lab procedure kit for angiogram and angioplasty procedures with reinforced cardiovascular drapes.",
+    desc: "Purpose-built for catheterisation laboratory use, this kit combines reinforced cardiovascular drapes, sterile field covers, gown and accessories for angiogram and angioplasty procedures. Assembled under controlled-environment conditions with full batch traceability for cath-lab infection control compliance.",
+    specs: [
+      ["Fabric", "SMMS non-woven, reinforced viral-barrier zones"],
+      ["Application", "Catheterisation lab — angiogram, angioplasty, stenting"],
+      ["Sterilization", "Ethylene Oxide (EO), validated to ISO 11135"],
+      ["Packaging", "Peel-pouch, validated to EN ISO 11607-2"],
+      ["Shelf life", "36 months from date of manufacture"],
+      ["Customisation", "Pack contents configurable per cath-lab protocol"],
+      ["Pack sizes", "1 / 5 kits per carton"]
+    ]
+  },
+  {
+    id: "ortho-surgical-hood",
+    img: "assets/img/ortho-surgical-hood.jpg",
+    name: "Orthopaedic Surgical Hood",
+    category: "gowns",
+    catLabel: "Surgeon Gowns",
+    tags: ["Orthopaedic", "Body Exhaust", "HEPA"],
+    price: 620,
+    packs: ["1 Unit", "Pack of 5", "Pack of 10"],
+    icon: "checkroom",
+    short: "Full-head body-exhaust surgical hood for orthopaedic joint replacement procedures requiring HEPA-filtered air supply.",
+    desc: "Designed for joint replacement theatres operating with laminar-flow HEPA ventilation, this body-exhaust surgical hood provides a fully enclosed sterile head-covering that connects to the theatre's filtered air supply. Reduces particulate contamination risk in high-stakes arthroplasty environments.",
+    specs: [
+      ["Fabric", "SMMS non-woven, anti-static, fluid-repellent"],
+      ["Application", "Orthopaedic joint replacement, body-exhaust theatre systems"],
+      ["Sterilization", "Ethylene Oxide (EO), validated to ISO 11135"],
+      ["Packaging", "Peel-pouch, validated to EN ISO 11607-2"],
+      ["Shelf life", "36 months from date of manufacture"],
+      ["Pack sizes", "1 / 5 / 10 units per carton"]
     ]
   },
   {
@@ -148,8 +193,8 @@ const DISPOLINE_PRODUCTS = [
   },
   {
     id: "sms-gown",
-    img: "assets/img/reinforced-surgical-gown.jpg",
-    name: "SMS Surgeon Gown",
+    img: "assets/img/aras-surgeon-gown.jpg",
+    name: "Surgical Gown ARAS",
     category: "gowns",
     catLabel: "Surgeon Gowns",
     tags: ["AAMI Level 3", "Reinforced"],
@@ -169,7 +214,8 @@ const DISPOLINE_PRODUCTS = [
   },
   {
     id: "smms-gown",
-    name: "SMMS Viral-Barrier Gown",
+    img: "assets/img/hybreathe-surgeon-gown.jpg",
+    name: "Hybreathe Surgeon Gown (BVB Sleeve)",
     category: "gowns",
     catLabel: "Surgeon Gowns",
     tags: ["AAMI Level 4", "Viral Barrier"],
@@ -337,7 +383,8 @@ const DISPOLINE_PRODUCTS = [
   },
   {
     id: "laminate-apron",
-    name: "Laminate Protective Apron",
+    img: "assets/img/disposable-gown.jpg",
+    name: "Disposable Isolation Gown",
     category: "drapes",
     catLabel: "Patient Care",
     tags: ["Impervious", "Disposable"],
