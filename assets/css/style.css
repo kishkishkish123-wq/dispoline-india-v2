@@ -259,6 +259,7 @@ h1,h2,h3,h4{font-family:var(--font-head);font-weight:800;color:var(--charcoal);m
 .photo-tile{
   position:relative;aspect-ratio:4/5;overflow:hidden;background:linear-gradient(160deg,#243033,#3c4a4d);
 }
+.photo-tile.hero-photo{background:#1c2528;aspect-ratio:4/5;}
 .photo-tile.wide{aspect-ratio:16/10;}
 .photo-tile .caption-strip{
   position:absolute;bottom:0;left:0;right:0;padding:14px 18px;
@@ -278,7 +279,7 @@ h1,h2,h3,h4{font-family:var(--font-head);font-weight:800;color:var(--charcoal);m
 @media (max-width:900px){
   .hero-grid{grid-template-columns:1fr;}
   .hero h1{font-size:36px;}
-  .photo-tile{aspect-ratio:16/9;}
+  .photo-tile.hero-photo{aspect-ratio:4/3;}
   .hero-fb-left{top:12px;left:12px;}
   .hero-fb-right{bottom:12px;right:12px;}
 }
