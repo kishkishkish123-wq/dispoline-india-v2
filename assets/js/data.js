@@ -27,6 +27,7 @@ const DISPOLINE_PRODUCTS = [
   },
   {
     id: "urology-pack",
+    img: "assets/img/urology-pack.jpg",
     name: "Urology Surgical Kit & Drape",
     category: "kits",
     catLabel: "Procedure Kits",
@@ -132,7 +133,8 @@ const DISPOLINE_PRODUCTS = [
   },
   {
     id: "general-surgery-pack",
-    name: "General Surgery Pack",
+    img: "assets/img/general-surgery-basic-pack.jpg",
+    name: "Non-Woven General Surgery Basic Pack",
     category: "kits",
     catLabel: "Procedure Kits",
     tags: ["General Surgery", "Custom Pack"],
@@ -167,6 +169,27 @@ const DISPOLINE_PRODUCTS = [
       ["Packaging", "Peel-pouch, validated to EN ISO 11607-2"],
       ["Shelf life", "36 months from date of manufacture"],
       ["Customisation", "Pack contents configurable per hospital protocol"],
+      ["Pack sizes", "1 / 5 / 10 kits per carton"]
+    ]
+  },
+  {
+    id: "delivery-kit",
+    name: "Obstetric Delivery Kit",
+    category: "kits",
+    catLabel: "Procedure Kits",
+    tags: ["Obstetrics", "Labour Room", "EO Sterile"],
+    price: 890,
+    packs: ["1 Kit", "5 Kits", "10 Kits"],
+    icon: "medical_services",
+    short: "Pre-sterile delivery kit for normal and assisted vaginal deliveries — maternity drape, cord clamp, towels and accessories.",
+    desc: "Designed for labour room and birthing suite use, this pre-sterile delivery kit includes a maternity fenestrated drape, sterile cord clamp, baby wrap towel, absorbent under-pad and episiotomy accessories — all assembled and sealed under controlled-environment conditions. Distinct from the OT-based Gynaecology Kit.",
+    specs: [
+      ["Contents", "Maternity drape, cord clamp, baby wrap, under-pad, accessories"],
+      ["Fabric", "SMS non-woven, fluid-repellent"],
+      ["Sterilization", "Ethylene Oxide (EO), validated to ISO 11135"],
+      ["Packaging", "Peel-pouch, validated to EN ISO 11607-2"],
+      ["Shelf life", "36 months from date of manufacture"],
+      ["Customisation", "Contents configurable per hospital delivery protocol"],
       ["Pack sizes", "1 / 5 / 10 kits per carton"]
     ]
   },
@@ -394,7 +417,8 @@ const DISPOLINE_PRODUCTS = [
   },
   {
     id: "ot-table-cover",
-    name: "OT Table Cover",
+    img: "assets/img/ot-table-cover-rectangular.jpg",
+    name: "Disposable Rectangular OT Table Cover",
     category: "drapes",
     catLabel: "Patient Drapes",
     tags: ["Impervious", "Fitted"],
@@ -411,8 +435,29 @@ const DISPOLINE_PRODUCTS = [
     ]
   },
   {
+    id: "trolley-cover",
+    img: "assets/img/trolley-cover.jpg",
+    name: "Disposable Trolley Cover",
+    category: "drapes",
+    catLabel: "Patient Drapes",
+    tags: ["Impervious", "Disposable", "Sterile"],
+    price: 55,
+    packs: ["Pack of 25", "Pack of 50", "Pack of 100"],
+    icon: "layers",
+    short: "Impervious disposable trolley cover for instrument and mayo-stand protection in OT.",
+    desc: "A sterile, impervious disposable cover designed for instrument trolleys and mayo stands in the operating theatre. Provides a clean, fluid-resistant sterile field surface for every procedure, reducing cross-contamination risk between cases.",
+    specs: [
+      ["Fabric", "PE-laminated non-woven, fluid-impervious"],
+      ["Sterilization", "Ethylene Oxide (EO), validated to ISO 11135"],
+      ["Packaging", "Peel-pouch, validated to EN ISO 11607-2"],
+      ["Sizes", "Standard trolley / mayo-stand sizes available"],
+      ["Pack sizes", "25 / 50 / 100 covers per carton"]
+    ]
+  },
+  {
     id: "instrument-tray-cover",
-    name: "Instrument Tray Cover",
+    img: "assets/img/ot-special-cover.jpg",
+    name: "Disposable Special OT Cover",
     category: "drapes",
     catLabel: "Instrument Covers",
     tags: ["Sterile Barrier", "EN ISO 11607-2"],
@@ -430,7 +475,8 @@ const DISPOLINE_PRODUCTS = [
   },
   {
     id: "sterilization-wrap",
-    name: "Sterilization Wrap Sheet",
+    img: "assets/img/sterile-surgical-wrap.jpg",
+    name: "Sterile Surgical Wrap Sheet",
     category: "drapes",
     catLabel: "Sterile Barrier Systems",
     tags: ["Sterile Barrier", "Batch Tested"],
