@@ -209,7 +209,8 @@ h1,h2,h3,h4{font-family:var(--font-head);font-weight:800;color:var(--charcoal);m
 }
 .burger{display:none;}
 
-.mobile-nav{display:none;}
+.mobile-nav{display:none;background:var(--white);border-top:1px solid var(--line);}
+.mobile-nav.open{display:block;}
 
 @media (max-width:980px){
   .search-box{display:none;}
@@ -282,7 +283,7 @@ h1,h2,h3,h4{font-family:var(--font-head);font-weight:800;color:var(--charcoal);m
 .trust-row{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap;}
 .trust-item{display:flex;align-items:center;gap:10px;color:#e7e9e3;}
 .trust-item .material-symbols-outlined{color:var(--teal);font-size:20px;}
-.trust-item span{font-family:var(--font-mono);font-size:11.5px;letter-spacing:.04em;text-transform:uppercase;}
+.trust-item span:not(.material-symbols-outlined){font-family:var(--font-mono);font-size:11.5px;letter-spacing:.04em;text-transform:uppercase;}
 
 /* ---------- Section shell ---------- */
 .section{padding:88px 0;}
@@ -363,7 +364,7 @@ h1,h2,h3,h4{font-family:var(--font-head);font-weight:800;color:var(--charcoal);m
   border:1px solid var(--line);flex:1;min-width:210px;
 }
 .cert-chip .material-symbols-outlined{color:var(--teal-dark);}
-.cert-chip span{font-family:var(--font-mono);font-size:11px;letter-spacing:.03em;text-transform:uppercase;font-weight:600;}
+.cert-chip span:not(.material-symbols-outlined){font-family:var(--font-mono);font-size:11px;letter-spacing:.03em;text-transform:uppercase;font-weight:600;}
 
 /* ---------- Testimonials ---------- */
 .testi-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;}
