@@ -103,7 +103,8 @@ function renderMiniCart(){
 }
 
 function bindAddToCartButtons(){
-  document.querySelectorAll(".js-add-to-cart").forEach(btn=>{
+  document.querySelectorAll(".js-add-to-cart:not([data-bound])").forEach(btn=>{
+    btn.dataset.bound = "1";
     btn.addEventListener("click", (e)=>{
       e.preventDefault();
       const id = btn.dataset.id;
