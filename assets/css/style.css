@@ -374,7 +374,7 @@ h1,h2,h3,h4{font-family:var(--font-head);font-weight:800;color:var(--charcoal);m
 /* ---------- Testimonials ---------- */
 .testi-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;}
 .testi-card{padding:26px;}
-.testi-card .material-symbols-outlined{color:var(--teal);font-size:26px;margin-bottom:14px;}
+.testi-quote{display:block;font-size:56px;line-height:1;color:var(--teal-dark);margin-bottom:10px;font-family:Georgia,serif;font-weight:700;}
 .testi-card p{font-size:14px;color:var(--charcoal-soft);margin-bottom:18px;}
 .testi-who{font-family:var(--font-mono);font-size:11px;text-transform:uppercase;letter-spacing:.03em;color:var(--ink-60);}
 @media (max-width:900px){.testi-grid{grid-template-columns:1fr;}}
